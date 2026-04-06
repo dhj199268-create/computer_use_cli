@@ -23,9 +23,11 @@ from .mouse_cmd import mouse
 from .keyboard_cmd import keyboard
 from .screen_cmd import screen
 from .skill_cmd import skill
+from .template_cmd import template
 
 # Add subcommands
 cli.add_command(mouse)
 cli.add_command(keyboard)
 cli.add_command(screen)
 cli.add_command(skill)
+cli.add_command(template)
